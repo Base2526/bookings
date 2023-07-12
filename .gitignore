@@ -1,15 +1,15 @@
 frontend/node_modules
-frontend/ssl
+# frontend/ssl
 
 backend/node_modules
-backend/uploads
-backend/src/logs
+# backend/uploads
+# backend/src/logs
 
-mongo/data1
-mongo/data2
-mongo/data3
+# mongo/data1
+# mongo/data2
+# mongo/data3
 
-mongo-single/data
+# mongo-single/data
 
 uploads
 
