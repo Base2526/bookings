@@ -1,0 +1,51 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "booking",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon --exec npx babel-node src/index.js",
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mr. Somkid sim",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.22.7",
+    "@graphql-tools/schema": "^8.5.1",
+    "apollo-server": "^3.12.0",
+    "apollo-server-core": "^3.12.0",
+    "apollo-server-errors": "^3.3.1",
+    "apollo-server-express": "^3.12.0",
+    "babel-jest": "^29.6.1",
+    "body-parser": "^1.20.2",
+    "cli-highlight": "^2.1.11",
+    "crypto-js": "^4.1.1",
+    "deepdash": "^5.3.9",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "graphql": "^16.7.1",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-upload": "^13.0.0",
+    "graphql-ws": "^5.14.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^5.13.19",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.2",
+    "nodemon": "^3.0.1",
+    "subscriptions-transport-ws": "^0.11.0",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "winston-mongodb": "^5.1.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.22.6"
+  }
+}
